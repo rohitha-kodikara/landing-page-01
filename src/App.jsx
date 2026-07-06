@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FeatureItems from "./components/FeatureItems";
 import ContactForm from "./components/ContactForm";
-
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
@@ -12,6 +12,7 @@ const App = () => {
         <Hero />
         <FeatureItems />
       </div>
+      <Footer />
     </div>
   );
 };
